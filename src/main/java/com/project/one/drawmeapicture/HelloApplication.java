@@ -76,12 +76,12 @@ public class HelloApplication extends Application {
         Rectangle person2Body = new Rectangle(115, 260, 10, 20);
 
         // Swimming pool
-        Rectangle pool = new Rectangle(250, 200, 80, 50);
+        Rectangle pool = new Rectangle(255, 150, 80, 50);
         pool.setFill(Color.LIGHTBLUE);
 
         // Animals
-        Circle fish1 = new Circle(270, 220, 5, Color.ORANGE);
-        Circle fish2 = new Circle(260, 230, 5, Color.ORANGE);
+        Circle fish1 = new Circle(270, 160, 5, Color.ORANGE);
+        Circle fish2 = new Circle(260, 170, 5, Color.ORANGE);
 
         Polygon bird = new Polygon(430, 100, 440, 90, 450, 100);
         bird.setFill(Color.PURPLE);
