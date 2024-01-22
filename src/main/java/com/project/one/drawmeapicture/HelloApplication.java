@@ -49,7 +49,8 @@ public class HelloApplication extends Application {
         chimneyTop.setFill(Color.GRAY);
 
         // Sun
-        Circle sun = new Circle(450, 50, 30, Color.YELLOW);
+        Circle sun = new Circle(450, 50, 30);
+        sun.setFill(Color.YELLOW);
 
         // Additional shapes
         Circle treeTop = new Circle(400, 250, 20, Color.GREEN);
